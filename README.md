@@ -16,11 +16,11 @@ foo@bar:~$ pip install -r requirements.txt
 
 To use GTFinderOBins, run the script with the following arguments:
 ```console
-foo@bar:~$ python GTFindOBins.py -b [binary] -f [function]
+foo@bar:~$ python GTFindOBins.py BINARY -f [function]
 ```
 
-* `[binary]`: the name of binary to search for.
-* `[function]` the name of a function to search for on the GTFObins website.
+* `[BINARY]`: the name, filename or list (e.g. Sudo,SUID (NO SPACES)) of binaries to search for.
+* `[function]` the name, filename or list (e.g. Sudo,SUID (NO SPACES)) of a functions to search for on the GTFObins website.
 
 For more syntax inforamtions run:
 ```console
@@ -29,10 +29,10 @@ foo@bar:~$ python GTFindOBins.py --help
 
 For example:
 ```console
-foo@bar:~$ python scraper.py -f programs.txt -F setuid
+foo@bar:~$ python GTFindOBins.py binaries.txt -f SUID
 ```
 
-This command would search the GTFObins website for pages related to the programs listed in programs.txt, and return links to pages that include the setuid function.
+This command would search the GTFObins website for pages related to the programs listed in programs.txt, and return links to pages that include the SUID function.
 
 ## Contributing
 
