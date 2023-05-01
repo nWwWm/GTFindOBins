@@ -4,7 +4,7 @@ GTFindOBins.py is a Python script that searches the [GTFOBins](https://github.co
 
 ## Installation
 
-To use GTFinderOBins, you must have Python 3 installed on your system. You can download Python 3 from the official website: https://www.python.org/downloads/
+To use GTFinderOBins, you must have Python 3.10 or above installed on your system. You can download Python 3 from the official website: https://www.python.org/downloads/
 
 Once you have Python 3 installed, you can install the required dependencies using pip:
 
@@ -40,4 +40,4 @@ If you find a bug or have a suggestion for how to improve GTFinderOBins, please 
 
 ## License
 
-GTFinderOBins is released under the Open Source License. See LICENSE for more information.# GTFinderOBins
+GTFinderOBins is released under the Open Source License. See LICENSE for more information.
